@@ -1,0 +1,16 @@
+alias a=alias
+alias hg="history|grep"
+alias kl=clear
+alias qu=logout
+alias so=source
+a mv="mv -i"
+a rm="rm -i"
+a cp="cp -i"
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+set IGNOREEOF
+set NOCLOBBER
+set -o vi
+echo " to fix prompt add \\\!:  at end in .bashrc"
+export PATH=$PATH":."

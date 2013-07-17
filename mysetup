@@ -1,0 +1,17 @@
+    2  sudo apt-get install -y git-core
+    3  git clone https://github.com/startup-class/setup.git
+    4  ./setup/setup.sh
+    5  sudo apt-get update
+    6  sudo apt-get install -y python-software-properties python g++ make
+    7  sudo add-apt-repository ppa:chris-lea/node.js
+    8  sudo apt-get update
+    9  sudo apt-get install nodejs
+   10  node --version
+   15  git clone http://github.com/pdymo/bitstarter
+   17  history > mysetup
+   36  sudo apt-get update
+   38  npm --version
+   40  sudo npm install express
+   42  history > mysetup
+   28  node web.js
+      vi .bashrc_custom
