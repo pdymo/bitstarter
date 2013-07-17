@@ -1,3 +1,4 @@
+
     2  sudo apt-get install -y git-core
     3  git clone https://github.com/startup-class/setup.git
     4  ./setup/setup.sh
